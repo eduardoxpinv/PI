@@ -39,10 +39,16 @@ Pré-requesitos
 ---
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Docker](https://www.docker.com/) e [MySQL Workbench](https://www.mysql.com/products/workbench/).
 
-Instanciando o banco de dados
----bash
+# Instanciando o banco de dados
+```bash
 # Rode o seguinte comando para baixar a imagem docker
-docker pull carlos622/pi_v2:2.0.0
+$ docker pull carlos622/pi_v2:2.0.0
+
+# O banco de dados será instanciado usando o seguinte comando
+$ docker container run -ti --name PI  -p3306:3306  carlos622/pi_v2:2.0.0
+
+# Entrando no bancos de dados PI  
+$ docker container exec -it PI mysql -usenac -psenac
 
 
 
