@@ -40,8 +40,11 @@ $ docker container run -d --name PI  -p3306:3306  carlos622/pi_v2:2.0.0
 $ docker container exec -it PI mysql -usenac -psenac
 ```
 # Demonstração do banco de dados 
-
+---
 ![Gravação-de-Ecrã-2024-11-06-195851](https://github.com/user-attachments/assets/b3fe44ec-6006-4a80-bd3b-9623bc0ef2bd)
+
+# Apresentação do projeto
+https://github.com/user-attachments/assets/88520912-16ea-4635-bae7-7a08de7ba8d5
 
 
 
