@@ -17,18 +17,25 @@ O “App Solidário” é um aplicativo desenvolvido para facilitar a arrecadaç
 
  - [PI: Projeto integrador de implantação de banco de dados](#pi-projeto-integrador-de-implantação-de-banco-de-dados)
     - [Sobre o projeto](#sobre-o-projeto)
+    - [Modelo conceitual](#modelo-conceitual)
+    - [Pré-requisitos](#pré-requisitos)
+      - [Instanciando o banco de dados](#instanciando-o-banco-de-dados)
+      - [Demonstração do banco de dados](#demonstração-do-banco-de-dados)
+    - [Apresentação do projeto](#apresentação-do-projeto)
+- [Autores](#autores)
+s
 
-
-
+<!-- Modelo conceitual -->
 ## Modelo conceitual
 ---
 ![modelo_conceitual](https://github.com/user-attachments/assets/b5d2d907-5ba2-4374-a808-8089194ca99e)
 
-Pré-requesitos
+<!-- Pré-requisitos -->
+## Pré-requisitos
 ---
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Docker](https://www.docker.com/) e [MySQL Workbench](https://www.mysql.com/products/workbench/).
 
-# Instanciando o banco de dados
+## Instanciando o banco de dados
 ```bash
 # Rode o seguinte comando para baixar a imagem docker
 $ docker pull carlos622/pi_v2:2.0.0
@@ -39,15 +46,12 @@ $ docker container run -d --name PI  -p3306:3306  carlos622/pi_v2:2.0.0
 # Entrando no bancos de dados PI  
 $ docker container exec -it PI mysql -usenac -psenac
 ```
-# Demonstração do banco de dados 
+## Demonstração do banco de dados 
 ---
 ![Gravação-de-Ecrã-2024-11-06-195851](https://github.com/user-attachments/assets/b3fe44ec-6006-4a80-bd3b-9623bc0ef2bd)
 
-# Apresentação do projeto
+## Apresentação do projeto
 https://github.com/user-attachments/assets/88520912-16ea-4635-bae7-7a08de7ba8d5
-
-
-
 
 
 <!--Autores-->
