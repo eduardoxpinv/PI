@@ -2,17 +2,6 @@
 
 # PI: Projeto integrador de implantação de banco de dados
 
-<!--Autores-->
-## Autores
----
-- Thomas Burmeister Silva
-- Fernanda de Aro
-- Carlos Eduardo de Oliveira Cirilo
-- Davi Ribeiro da Silva
-- Natalia Pires de Almeida
-
-
-
 <!-- Descrição -->
 
 ## Sobre o projeto
@@ -45,13 +34,27 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 $ docker pull carlos622/pi_v2:2.0.0
 
 # O banco de dados será instanciado usando o seguinte comando
-$ docker container run -ti --name PI  -p3306:3306  carlos622/pi_v2:2.0.0
+$ docker container run -d --name PI  -p3306:3306  carlos622/pi_v2:2.0.0
 
 # Entrando no bancos de dados PI  
 $ docker container exec -it PI mysql -usenac -psenac
+```
+# Demonstração do banco de dados 
+
+![Gravação-de-Ecrã-2024-11-06-195851](https://github.com/user-attachments/assets/b3fe44ec-6006-4a80-bd3b-9623bc0ef2bd)
 
 
 
+
+
+<!--Autores-->
+## Autores
+---
+- Thomas Burmeister Silva
+- Fernanda de Aro
+- Carlos Eduardo de Oliveira Cirilo
+- Davi Ribeiro da Silva
+- Natalia Pires de Almeida
 
 
 
