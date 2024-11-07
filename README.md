@@ -30,11 +30,22 @@ O “App Solidário” é um aplicativo desenvolvido para facilitar a arrecadaç
     - [Sobre o projeto](#sobre-o-projeto)
 
 
- 
-
-
 
 ## Modelo conceitual
 ---
 ![modelo_conceitual](https://github.com/user-attachments/assets/b5d2d907-5ba2-4374-a808-8089194ca99e)
+
+Pré-requesitos
+---
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Docker](https://www.docker.com/) e [MySQL Workbench](https://www.mysql.com/products/workbench/).
+
+Instanciando o banco de dados
+---bash
+# Rode o seguinte comando para baixar a imagem docker
+docker pull carlos622/pi_v2:2.0.0
+
+
+
+
+
 
