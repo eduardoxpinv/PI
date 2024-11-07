@@ -36,4 +36,5 @@ O “App Solidário” é um aplicativo desenvolvido para facilitar a arrecadaç
 
 ## Modelo conceitual
 ---
+![modelo_conceitual](https://github.com/user-attachments/assets/b5d2d907-5ba2-4374-a808-8089194ca99e)
 
