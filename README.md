@@ -62,6 +62,7 @@ https://github.com/user-attachments/assets/88520912-16ea-4635-bae7-7a08de7ba8d5
 - Carlos Eduardo de Oliveira Cirilo
 - Davi Ribeiro da Silva
 - Natalia Pires de Almeida
+- Leonardo Alberto Paiva Bressiani
 
 
 
